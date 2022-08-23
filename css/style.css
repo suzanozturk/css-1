@@ -1,19 +1,48 @@
 /* class -> .text-red {} */
-/* id-> .id-bilgisi {} */
+/* id-> .id-bilgisi {} 
+
+position: relative; 
+    left: 400px; 
+    width: fit-content*/
 
 h1,h2,h3 {
-    color:blueviolet
+    color:coral;
+    text-align: center;
 }
 
 h1 {
-    font-size:30px
+    font-size:30px;
+    text-align: center;
+    
+}
+
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+
 }
 
 .text-coral {
     color:coral
 }
-.fs-20{
+.fs-20 {
     font-size:20px;
 }
+ul {
+    list-style-position:inside;
+    display:inline-block;
+}
+li {
+    position:relative;
+    color: rgb(94, 52, 36)
+}
 
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    float:left;
+    margin:15px
+}
 
