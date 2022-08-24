@@ -13,14 +13,12 @@ h1,h2,h3 {
 h1 {
     font-size:30px;
     text-align: center;
-    
 }
 
 body {
     background-color: beige;
     font-family: 'Times New Roman', sans-serif;
     text-align: center;
-
 }
 
 .text-coral {
@@ -46,3 +44,11 @@ li {
     margin:15px
 }
 
+ol li img { 
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+ol {
+    list-style-position:inside;
+}
